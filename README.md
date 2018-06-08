@@ -7,3 +7,7 @@
 * Shoul have `<script async src="https://cdn.ampproject.org/v0.js"></script>` tag as the second child of their `<head>` tag
 * `<meta name="viewport" content="width=device-width,minimum-scale=1">`
 * Should contain `<link rel="canonical" href="$SOME_URL">` tag inside `<head>`. This is used to  point to the regular HTML document.
+
+## Running on localhost
+
+Run `python -m SimpleHTTPServer` from the folder which you need to serve on localhost
